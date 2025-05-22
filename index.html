@@ -4,27 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bosa HTML</title>
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
+    <div class="weather-container">
     <header>
         <form action="">
-            <input type="text" id="search" placeholder="Search a city.." required>
-            <input type="submit" value="Search">
+            <input type="text" id="enter" placeholder="Search a city.." required>
+            <input type="submit" id="search" value="Search">
         </form>
 
     </header>
     <main>
-        <div>
+        <div class="weather-data">
+        <div class="weather-info">
+        <h1 class="city-name">
+            Pretoria
+        </h1>
+        
             <p>
         Thursday 11:47, clear skies
         <br>
-        Humidity: 50%, Wind: 5km/h
+        Humidity: 
+        <strong>
+            50%
+        </strong>, 
+        Wind: 
+        <strong>5km/h
+
+        </strong>
             </p>
        </div>
-        <div>
-            🌤25°C
+        <div class="weather">
+            <div class="weather-icon">
+                🌤
+            </div>
+            <div class="weather-digit">
+              20
+            </div>
+            <div class="weather-unit">
+            °C
+            </div>
         </div>
-
+        </div>
     </main>
     
     <footer>
@@ -33,5 +55,9 @@
         <a href="https://github.com/Paballo-Khonothi/Bosa-app" target="_blank">Github</a>, and hosted on
         <a href="https://bosa-app-pmk.netlify.app/" target="_blank">Netlify</a>
     </footer>
+    <script>
+        
+    </script>
+    </div>
 </body>
 </html>
