@@ -25,10 +25,14 @@ html,body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+ 
+header {
+    padding: 0 0 40px 0;
+}
 
 .weather-container {
     display: block;
-    margin: 200px auto;
+    margin: 100px auto;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 30px 30px 60px hsla(197, 89%, 38%, 0.89);
@@ -90,6 +94,7 @@ footer {
 
 footer {
     color: rgb(1, 30, 73);
+    padding: 40px 0 0 0 ;
 }
 footer a {
     text-decoration: none;
