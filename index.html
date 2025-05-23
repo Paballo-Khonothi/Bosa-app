@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bosa HTML</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="weather-container">
@@ -26,29 +27,25 @@
     <main>
         <div class="weather-data">
         <div class="weather-info">
-        <h1 id="city-name">
-            Pretoria
+        <h1 id="cityName">
+            
         </h1>
         
             <p>
-        Thursday 11:47, clear skies
+        <span id="time"></span>, <span id="description"></span>
         <br>
         Humidity: 
-        <strong>
-            50%
-        </strong>, 
+        <span id="humidity"><strong></strong>,</span> 
         Wind: 
-        <strong>5km/h
-
-        </strong>
+        <span id="wind"><strong></strong></span>
             </p>
        </div>
         <div class="weather">
             <div class="weather-icon">
                 🌤
             </div>
-            <div class="weather-digit">
-              20
+            <div class="weather-digit" id="temperature">
+                
             </div>
             <div class="weather-unit">
             °C
