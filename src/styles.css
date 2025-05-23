@@ -64,9 +64,10 @@ justify-content: space-between;
    display: flex; 
 }
 
-.weather-icon {
-font-size: 44px;
-margin-top: 22px;
+#weather-icon {
+width: 88px;
+height: 88px;
+
 }
 
 .weather-digit {
