@@ -102,3 +102,42 @@ footer a {
     color: rgb(7, 86, 204);
     font-weight: 500;
 }
+
+/*FORECAST*/
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+.forecast-date {
+    text-align: center;
+    color: rgb(78, 5, 72);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.forecast-icon {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.forecast-temps {
+    text-align: center;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+
+
+}
+
+.temp {
+    padding: 0 10px;
+}
+
+
